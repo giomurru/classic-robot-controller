@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1524B14A-90CE-4F83-9FF3-C98EFBE2B420</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ClassicRobotController</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C33F12D2DBDC0CCC5FAF257D23B5EE408BC0774B</key>
+		<string>https://github.com/giomurru/classic-robot-controller.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ClassicRobotController.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C33F12D2DBDC0CCC5FAF257D23B5EE408BC0774B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/giomurru/classic-robot-controller.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C33F12D2DBDC0CCC5FAF257D23B5EE408BC0774B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C33F12D2DBDC0CCC5FAF257D23B5EE408BC0774B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ClassicRobotController</string>
+		</dict>
+	</array>
+</dict>
+</plist>

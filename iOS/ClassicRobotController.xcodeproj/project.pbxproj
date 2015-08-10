@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F8E257E1950980D0096995E /* StatsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8E257D1950980D0096995E /* StatsView.m */; };
+		6FCAF3ED190831BE001013D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCAF3EC190831BE001013D7 /* Foundation.framework */; };
+		6FCAF3EF190831BE001013D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCAF3EE190831BE001013D7 /* CoreGraphics.framework */; };
+		6FCAF3F1190831BE001013D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCAF3F0190831BE001013D7 /* UIKit.framework */; };
+		6FCAF3F7190831BE001013D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FCAF3F5190831BE001013D7 /* InfoPlist.strings */; };
+		6FCAF3F9190831BE001013D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAF3F8190831BE001013D7 /* main.m */; };
+		6FCAF3FD190831BE001013D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAF3FC190831BE001013D7 /* AppDelegate.m */; };
+		6FCAF3FF190831BE001013D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FCAF3FE190831BE001013D7 /* Images.xcassets */; };
+		6FCAF406190831BE001013D7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCAF405190831BE001013D7 /* XCTest.framework */; };
+		6FCAF407190831BE001013D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCAF3EC190831BE001013D7 /* Foundation.framework */; };
+		6FCAF408190831BE001013D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCAF3F0190831BE001013D7 /* UIKit.framework */; };
+		6FCAF410190831BE001013D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FCAF40E190831BE001013D7 /* InfoPlist.strings */; };
+		6FCAF412190831BE001013D7 /* ClassicRobotControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAF411190831BE001013D7 /* ClassicRobotControllerTests.m */; };
+		6FCAF41D190831E7001013D7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAF41C190831E7001013D7 /* MainViewController.m */; };
+		6FCAF42519085CF6001013D7 /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAF42319085CF6001013D7 /* BLE.m */; };
+		6FCAF428190AF1C3001013D7 /* GyroControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAF427190AF1C3001013D7 /* GyroControllerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FCAF409190831BE001013D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FCAF3E1190831BE001013D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FCAF3E8190831BE001013D7;
+			remoteInfo = ClassicRobotController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F8E257C1950980D0096995E /* StatsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatsView.h; sourceTree = "<group>"; };
+		6F8E257D1950980D0096995E /* StatsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatsView.m; sourceTree = "<group>"; };
+		6FCAF3E9190831BE001013D7 /* ClassicRobotController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassicRobotController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FCAF3EC190831BE001013D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6FCAF3EE190831BE001013D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6FCAF3F0190831BE001013D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6FCAF3F4190831BE001013D7 /* ClassicRobotController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClassicRobotController-Info.plist"; sourceTree = "<group>"; };
+		6FCAF3F6190831BE001013D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6FCAF3F8190831BE001013D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FCAF3FA190831BE001013D7 /* ClassicRobotController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClassicRobotController-Prefix.pch"; sourceTree = "<group>"; };
+		6FCAF3FB190831BE001013D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6FCAF3FC190831BE001013D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6FCAF3FE190831BE001013D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6FCAF404190831BE001013D7 /* ClassicRobotControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassicRobotControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FCAF405190831BE001013D7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6FCAF40D190831BE001013D7 /* ClassicRobotControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClassicRobotControllerTests-Info.plist"; sourceTree = "<group>"; };
+		6FCAF40F190831BE001013D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6FCAF411190831BE001013D7 /* ClassicRobotControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassicRobotControllerTests.m; sourceTree = "<group>"; };
+		6FCAF41B190831E7001013D7 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6FCAF41C190831E7001013D7 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6FCAF42219085CF6001013D7 /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
+		6FCAF42319085CF6001013D7 /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
+		6FCAF42419085CF6001013D7 /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
+		6FCAF426190AF1C3001013D7 /* GyroControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GyroControllerView.h; sourceTree = "<group>"; };
+		6FCAF427190AF1C3001013D7 /* GyroControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GyroControllerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FCAF3E6190831BE001013D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FCAF3EF190831BE001013D7 /* CoreGraphics.framework in Frameworks */,
+				6FCAF3F1190831BE001013D7 /* UIKit.framework in Frameworks */,
+				6FCAF3ED190831BE001013D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FCAF401190831BE001013D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FCAF406190831BE001013D7 /* XCTest.framework in Frameworks */,
+				6FCAF408190831BE001013D7 /* UIKit.framework in Frameworks */,
+				6FCAF407190831BE001013D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FCAF3E0190831BE001013D7 = {
+			isa = PBXGroup;
+			children = (
+				6FCAF3F2190831BE001013D7 /* ClassicRobotController */,
+				6FCAF40B190831BE001013D7 /* ClassicRobotControllerTests */,
+				6FCAF3EB190831BE001013D7 /* Frameworks */,
+				6FCAF3EA190831BE001013D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FCAF3EA190831BE001013D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FCAF3E9190831BE001013D7 /* ClassicRobotController.app */,
+				6FCAF404190831BE001013D7 /* ClassicRobotControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FCAF3EB190831BE001013D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FCAF42119085CF6001013D7 /* BLE */,
+				6FCAF3EC190831BE001013D7 /* Foundation.framework */,
+				6FCAF3EE190831BE001013D7 /* CoreGraphics.framework */,
+				6FCAF3F0190831BE001013D7 /* UIKit.framework */,
+				6FCAF405190831BE001013D7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FCAF3F2190831BE001013D7 /* ClassicRobotController */ = {
+			isa = PBXGroup;
+			children = (
+				6FCAF3FB190831BE001013D7 /* AppDelegate.h */,
+				6FCAF3FC190831BE001013D7 /* AppDelegate.m */,
+				6FCAF41B190831E7001013D7 /* MainViewController.h */,
+				6FCAF41C190831E7001013D7 /* MainViewController.m */,
+				6F8E257C1950980D0096995E /* StatsView.h */,
+				6F8E257D1950980D0096995E /* StatsView.m */,
+				6FCAF426190AF1C3001013D7 /* GyroControllerView.h */,
+				6FCAF427190AF1C3001013D7 /* GyroControllerView.m */,
+				6FCAF3FE190831BE001013D7 /* Images.xcassets */,
+				6FCAF3F3190831BE001013D7 /* Supporting Files */,
+			);
+			path = ClassicRobotController;
+			sourceTree = "<group>";
+		};
+		6FCAF3F3190831BE001013D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FCAF3F4190831BE001013D7 /* ClassicRobotController-Info.plist */,
+				6FCAF3F5190831BE001013D7 /* InfoPlist.strings */,
+				6FCAF3F8190831BE001013D7 /* main.m */,
+				6FCAF3FA190831BE001013D7 /* ClassicRobotController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FCAF40B190831BE001013D7 /* ClassicRobotControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FCAF411190831BE001013D7 /* ClassicRobotControllerTests.m */,
+				6FCAF40C190831BE001013D7 /* Supporting Files */,
+			);
+			path = ClassicRobotControllerTests;
+			sourceTree = "<group>";
+		};
+		6FCAF40C190831BE001013D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FCAF40D190831BE001013D7 /* ClassicRobotControllerTests-Info.plist */,
+				6FCAF40E190831BE001013D7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FCAF42119085CF6001013D7 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				6FCAF42219085CF6001013D7 /* BLE.h */,
+				6FCAF42319085CF6001013D7 /* BLE.m */,
+				6FCAF42419085CF6001013D7 /* BLEDefines.h */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FCAF3E8190831BE001013D7 /* ClassicRobotController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FCAF415190831BE001013D7 /* Build configuration list for PBXNativeTarget "ClassicRobotController" */;
+			buildPhases = (
+				6FCAF3E5190831BE001013D7 /* Sources */,
+				6FCAF3E6190831BE001013D7 /* Frameworks */,
+				6FCAF3E7190831BE001013D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClassicRobotController;
+			productName = ClassicRobotController;
+			productReference = 6FCAF3E9190831BE001013D7 /* ClassicRobotController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FCAF403190831BE001013D7 /* ClassicRobotControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FCAF418190831BE001013D7 /* Build configuration list for PBXNativeTarget "ClassicRobotControllerTests" */;
+			buildPhases = (
+				6FCAF400190831BE001013D7 /* Sources */,
+				6FCAF401190831BE001013D7 /* Frameworks */,
+				6FCAF402190831BE001013D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FCAF40A190831BE001013D7 /* PBXTargetDependency */,
+			);
+			name = ClassicRobotControllerTests;
+			productName = ClassicRobotControllerTests;
+			productReference = 6FCAF404190831BE001013D7 /* ClassicRobotControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FCAF3E1190831BE001013D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Giovanni Murru";
+				TargetAttributes = {
+					6FCAF403190831BE001013D7 = {
+						TestTargetID = 6FCAF3E8190831BE001013D7;
+					};
+				};
+			};
+			buildConfigurationList = 6FCAF3E4190831BE001013D7 /* Build configuration list for PBXProject "ClassicRobotController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6FCAF3E0190831BE001013D7;
+			productRefGroup = 6FCAF3EA190831BE001013D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FCAF3E8190831BE001013D7 /* ClassicRobotController */,
+				6FCAF403190831BE001013D7 /* ClassicRobotControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FCAF3E7190831BE001013D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FCAF3F7190831BE001013D7 /* InfoPlist.strings in Resources */,
+				6FCAF3FF190831BE001013D7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FCAF402190831BE001013D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FCAF410190831BE001013D7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FCAF3E5190831BE001013D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FCAF3FD190831BE001013D7 /* AppDelegate.m in Sources */,
+				6FCAF41D190831E7001013D7 /* MainViewController.m in Sources */,
+				6FCAF42519085CF6001013D7 /* BLE.m in Sources */,
+				6FCAF3F9190831BE001013D7 /* main.m in Sources */,
+				6F8E257E1950980D0096995E /* StatsView.m in Sources */,
+				6FCAF428190AF1C3001013D7 /* GyroControllerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FCAF400190831BE001013D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FCAF412190831BE001013D7 /* ClassicRobotControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FCAF40A190831BE001013D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FCAF3E8190831BE001013D7 /* ClassicRobotController */;
+			targetProxy = 6FCAF409190831BE001013D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FCAF3F5190831BE001013D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FCAF3F6190831BE001013D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6FCAF40E190831BE001013D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FCAF40F190831BE001013D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FCAF413190831BE001013D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6FCAF414190831BE001013D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FCAF416190831BE001013D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClassicRobotController/ClassicRobotController-Prefix.pch";
+				INFOPLIST_FILE = "ClassicRobotController/ClassicRobotController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6FCAF417190831BE001013D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClassicRobotController/ClassicRobotController-Prefix.pch";
+				INFOPLIST_FILE = "ClassicRobotController/ClassicRobotController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6FCAF419190831BE001013D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClassicRobotController.app/ClassicRobotController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClassicRobotController/ClassicRobotController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ClassicRobotControllerTests/ClassicRobotControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6FCAF41A190831BE001013D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClassicRobotController.app/ClassicRobotController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClassicRobotController/ClassicRobotController-Prefix.pch";
+				INFOPLIST_FILE = "ClassicRobotControllerTests/ClassicRobotControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FCAF3E4190831BE001013D7 /* Build configuration list for PBXProject "ClassicRobotController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FCAF413190831BE001013D7 /* Debug */,
+				6FCAF414190831BE001013D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FCAF415190831BE001013D7 /* Build configuration list for PBXNativeTarget "ClassicRobotController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FCAF416190831BE001013D7 /* Debug */,
+				6FCAF417190831BE001013D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FCAF418190831BE001013D7 /* Build configuration list for PBXNativeTarget "ClassicRobotControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FCAF419190831BE001013D7 /* Debug */,
+				6FCAF41A190831BE001013D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FCAF3E1190831BE001013D7 /* Project object */;
+}
